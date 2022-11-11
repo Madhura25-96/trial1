@@ -63,7 +63,7 @@ multiplication (·) are defined. For the given {F , + , .}, definition of the fi
 - Distributivity of multiplication over addition: Elements a, b, c ∈ F  satisfy a · ( b +
     c) = (a · b ) + (a · c).
 - Additive identity: There exist an element 0 ∈ F such that a + 0 = a.
-- Multiplicative identity: There exist an element 1 ∈ Fsuch that a · 1 = a and 1 ̸= 0.
+- Multiplicative identity: There exist an element 1 ∈ Fsuch that a · 1 = a and 1 ≠ 0 .
 - Additive inverses: For every a ∈ F, there exists an element in F, denoted by −a,
     called the additive inverse of a, such that a + (−a) = 0.
 - Multiplicative inverses: For every a ≠ 0 ∈ F, there exists an element in F, denoted
@@ -113,30 +113,30 @@ that are defined over F<sub>2</sub> :
     of their respective components defined according to Eq. (1), i.e.,  Equation (2) :-
 
 $$\mathbf{v + w} =  \begin{pmatrix}
-                    v1  \\
-                    v2  \\
+                    v_{1}  \\
+                    v_{2}  \\
                     .   \\
-                    vn  \end{pmatrix}
+                    v_{n}  \end{pmatrix}
                     \space
                     \space
                     +
                     \space
                     \space
                     \begin{pmatrix}
-                    w1  \\
-                    w2  \\
+                    w_{1}  \\
+                    w_{2}  \\
                     .   \\
-                    wn  \end{pmatrix}
+                    w_{n}  \end{pmatrix}
                     \space
                     \space
                     =
                     \space
                     \space
                     \begin{pmatrix}
-                    v1 + w1  \\
-                    v2 + w2  \\
+                    v_{1} + w_{1}  \\
+                    v_{2} + w_{2}  \\
                     .        \\
-                    vn + wn  \end{pmatrix}$$
+                    v_{n} + w_{n}  \end{pmatrix}$$
                     
                     
         
@@ -148,10 +148,10 @@ $$\mathbf{v + w} =  \begin{pmatrix}
     
 $$\mathbf{a . v}  =  a . 
                      \begin{pmatrix}
-                      v1  \\
-                      v2  \\
+                      v_{1}  \\
+                      v_{2}  \\
                       .   \\
-                      vn   
+                      v_{n}   
                       \end{pmatrix}
                       \space
                       \space
@@ -159,25 +159,25 @@ $$\mathbf{a . v}  =  a .
                       \space
                       \space
                       \begin{pmatrix}
-                       a . v1 \\
-                       a . v2 \\
+                       a . v_{1} \\
+                       a . v_{2} \\
                          .    \\
-                       a . vn 
+                       a . v_{n} 
                        \end{pmatrix}$$
                       
         
 where the operation a·v<sub>i</sub> for i = 1, 2 ,... , n is performed according to Eq. (1).
 - Multiplication of a vector and a matrix: For a vector v ∈ F<sub>2</sub><sup>n</sup> and a matrix M ∈ F<sub>2</sub><sup>n x m </sup> , v . M is given by 
 
-$$\mathbf { v . M }  =  \begin{pmatrix} v1 &  v2  &  .  & vn \end{pmatrix} 
+$$\mathbf { v . M }  =  \begin{pmatrix} v_{1} &  v_{2}  &  .  & v_{n} \end{pmatrix} 
                         \space
-                        \begin{pmatrix} M11 & M12 &  .  & M1m \\
-                                        M21 & M22 &  .  & M2m \end{pmatrix}
+                        \begin{pmatrix} M_{11} & M_{12} &  .  & M_{1m} \\
+                                        M_{21} & M_{22} &  .  & M_{2m} \end{pmatrix}
                         =
-                        \begin{pmatrix} v1.M11 & + & v2.M12 & + & . & + & vn.M1m \\
-                                        v1.M21 & + & v2.M22 & + & . & + & vn.M2m \\
+                        \begin{pmatrix} v_{1}.M_{11} & + & v_{2}.M_{12} & + & . & + & v_{n}.M_{1m} \\
+                                        v_{1}.M_{21} & + & v_{2}.M_{22} & + & . & + & v_{n}.M_{2m} \\
                                                    . \\
-                                        v1.Mn1 & + & v2.Mn2 & + & . & + & vn.Mnm \end{pmatrix}$$
+                                        v_{1}.M_{n1} & + & v_{2}.M_{n2} & + & . & + & v_{n}.M_{nm} \end{pmatrix}$$
 
 where note that each component wise addition and multiplication is performed according to Eq. (1).
 
@@ -204,7 +204,7 @@ This vector space V is also called as the span of the vectors v 1 ,v 2 ,... ,vm,
   For example, the vector space spanned by the vectors v<sub>1</sub> =[ 1 0 1], v<sub>2</sub> = [ 0 0 1] and v<sub>3</sub> = [ 0 1 0] is given by
   
 $$\mathbf{V} =  span\begin{pmatrix}
-                v1 & , & v2 & , & v3
+                v_{1} & , & v_{2} & , & v_{3}
                 \end{pmatrix}
                 \space
                 \space
